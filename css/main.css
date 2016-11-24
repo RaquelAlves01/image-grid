@@ -66,3 +66,14 @@ img:nth-child(5) {
 
 }
 
+@media only screen and (min-width: 60em) {
+
+  img:first-child {
+    width: 66.66%;
+  }
+
+  img:nth-child(5) {
+    display: flex;
+    width: 33.33%
+  }
+}
