@@ -16,7 +16,12 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 img {
+  display: block;
   float: left;
   width: 100%;
 }
